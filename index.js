@@ -159,7 +159,7 @@ function appendResult(data) {
 
         div.onclick = () => {
             showDetails(name, biography, image, connections)
-            console.log("hello");
+            // console.log("hello");
         }
         
         resultDiv.append(div)
@@ -251,7 +251,7 @@ async function main() {
         return false
     }
     let results = await searchChar(name)
-    console.log(results);
+    // console.log(results);
     if(results === undefined){
         return false
     }
