@@ -1,1 +1,3 @@
-# Go live[https://shashankmarvelapi.netlify.app/]
+# MarvelApi
+
+## Go Live - [Click Here](https://shashankmarvelapi.netlify.app/)
