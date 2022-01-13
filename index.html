@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Character</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://www.dafontfree.net/embed/Zm9ydGUtcmVndWxhciZkYXRhLzI0L2YvMTI1MjYwL0ZPUlRFLnR0Zg" rel="stylesheet" type="text/css"/>
+    
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <audio src="./Portals-Avenger-Endgame.mp3" id="audio"></audio>
+    <div id="audioDiv">
+        <img src="https://img.icons8.com/ios/50/fa314a/mute.png" id="audioImg" onclick="audioPlay()" />
+    </div>
+    <div style="clear: both;"></div>
+    <div id="container">
+        <div id="logo"> <img src="./images/logo.png" alt="..." class="logoImg"></div>
+        <div id="searchContainer">
+            <div id="inputDiv">
+                <input type="text" placeholder="Search Here" oninput="debounce(main,1000)" id="query">
+            </div>
+            <div><img src="https://img.icons8.com/ios-glyphs/30/fa314a/search--v1.png" /></div>
+        </div>
+        <div id="dummy"></div>
+        <div id="resultsDiv">
+
+        </div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
+
+<!-- <img src="https://img.icons8.com/ios/50/fa314a/room-sound.png"/> -->
